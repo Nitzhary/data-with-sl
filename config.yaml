@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@email.com
+      name: Administrador
+      password: "123"  # la contraseña se puede encriptar
+    usuario1:
+      email: user@email.com
+      name: Usuario Normal
+      password: "abc"
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+
+preauthorized:
+  emails: []
